@@ -1,6 +1,6 @@
 #############################################################
 # @package Youtube-Bot --- Python                           #
-# @author Ahmad Ishaq                                       #
+# @author Amit                                              #
 #############################################################
 
 
@@ -95,14 +95,6 @@ def excelinput(day):
                     my_time1 = str(my_time)
                     w.get_sheet(s).write(i,j,my_time1)
        
-    '''  for i in range(len(in_time)):
-            hr=int(in_time[i].split(':')[0])
-            mins=int(in_time[i].split(':')[1])
-            t1=timedelta(hours=hr,minutes=mins)
-            dura=int(duration[i])
-            t2=timedelta(hours=0,minutes=dura)
-            diff=t1-t2
-            w.get_sheet(s).write(i+1,7,str(diff))'''
     w.save('new'+day)
 
 #Xpaths to interact with Youtibe
