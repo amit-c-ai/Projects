@@ -1,8 +1,8 @@
 # randomly generate user_id and password having atleast 1, uppercase l,
 # lowercase, 1 special symbol and 1 digit. And send this randomly generated
-# information to given e-mail address using smtp server
+# information to given e-mail address using smtp server.
 
-# NOTE: If sender's emai address has not allowed less secure apps in setting
+# NOTE: If sender's email address has not allowed less secure apps in settings
 # then application will show error. You can allow it in settings. To read help open
 # help.jpg in this folder and then visit below site : 
 # (https://www.google.com/settings/security/lesssecureapps)
