@@ -1,0 +1,7 @@
+Bus #. SQU Location Destination Student's Gender Driver's Name available seats Pick-Up
+-------- ----------------- -------------- --------------------- ----------------- ------------------ -----------------
+737 SCi-3 Seeb Male Ali 5 14:30
+747 Eng-4 Amerat Male Salim 2 18:00
+757 Compound-1 Mutrah Female Nassir 7 15:00
+767 Econ Alkhode Female Salih 10 14:30
+777 Compound-3 Mabella Male Hamad 0 12:30

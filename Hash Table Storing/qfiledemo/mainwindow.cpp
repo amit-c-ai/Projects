@@ -180,19 +180,18 @@ void MainWindow::on_pushButton_2_clicked()
 
         foreach (var, newdata) {
             struct input v;
-            newvar = var.split(",",QString::SkipEmptyParts);
-            if(newvar.size()<6)
-                return;
-
-            v.id = newvar[0];
-            v.name = newvar[1];
-            v.surname = newvar[2];
-            v.address = newvar[3];
-            v.country = newvar[4];
-            v.email = newvar[5];
-            k = (v.id).toDouble();
-            hash.Insert(k, &v, choice, c);
-            i++;
+            newvar = var.split(",");
+            if(!(newvar.size()<6)){
+                v.id = newvar[0];
+                v.name = newvar[1];
+                v.surname = newvar[2];
+                v.address = newvar[3];
+                v.country = newvar[4];
+                v.email = newvar[5];
+                k = (v.id).toDouble();
+                hash.Insert(k, &v, choice, c);
+                i++;
+            }
         }
         ui->lineEdit_9->setText(QString::number(i));
         QStringList temp;
