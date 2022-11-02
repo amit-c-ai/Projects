@@ -1,0 +1,5 @@
+1. Run "sh install.sh" in terminal to install required packages
+2. Open terminal in same directory as project and run "python server.py"
+3. Open another terminal in same directory and run "python client.py"
+
+	You can now chat!
